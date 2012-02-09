@@ -36,20 +36,6 @@
 <div class="entirebody">
     <div id="banner">
       <div id="banner_inner">
-        <div class="lang">     
-     <div id="user_locale_switcher">
-       
-        
-	          <span class="active">English</span>
-        
-         
-        
-          <a href="/es/help/about">español</a>
-        
-         
-     </div>
-     
-</div>
         
         
           <div id="logged_in_bar">
@@ -71,7 +57,7 @@
         
         <div id="topnav">
           <ul>
-   <?php wp_list_pages('title_li='); ?>
+			<?php wp_list_pages('title_li=&depth=1' ); ?>
           </ul>
 
     </ul>

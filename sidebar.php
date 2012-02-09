@@ -3,13 +3,47 @@
  * @package WordPress
  * @subpackage Default_Theme
  */
+  if($post->post_parent)
+  $children = wp_list_pages("title_li=&child_of=".$post->post_parent."&echo=0");
+  else
+  $children = wp_list_pages("title_li=&child_of=".$post->ID."&echo=0");
 ?>
-	<div id="right_column_flip">
-		<ul>
+<div id="right_column_flip">
+<?php if ($children) { ?>
+<div id="secondary-nav">
+<h2>In this section:</h2><?php
+  echo "<ul class='no_bullets'>".$children."</ul>";
+?>
+</div>
+<?php
+} else { ?>
+		 <h2>Recent blog posts</h2>
+		 <ul class="no_bullets">
+		 <?php
+		 	$recent_posts = wp_get_recent_posts();
+		 	foreach( $recent_posts as $recent ){
+		 		echo '<li><a href="' . get_permalink($recent["ID"]) . '" title="Look '.$recent["post_title"].'" >' .   $recent["post_title"].'</a> </li> ';
+		 	}
+		 ?>
+		 </ul>
+
+<?php } 
+
+if (is_home()) {
+ ?>
+   
+                      <li><h2><?php _e('Archives', 'kubrick'); ?></h2>
+                              <ul class="no_bullets">
+                              <?php wp_get_archives('type=monthly'); ?>
+                              </ul>
+                      </li>
+
+<?php } ?>      
+		<ul class="no_bullets">
 
 			<?php if ( is_404() || is_category() || is_day() || is_month() ||
 						is_year() || is_search() || is_paged() ) {
-			?> <li>
+    ?> <li>
 
 			<?php /* If this is a 404 page */ if (is_404()) { ?>
 			<?php /* If this is a category archive */ } elseif (is_category()) { ?>
@@ -34,17 +68,8 @@
 
 		<?php }?>
 		</ul>
-		<ul role="navigation" class="no_bullets">
-			<?php wp_list_pages('title_li=<h2>Pages</h2>' ); ?>
 
-			<li><h2><?php _e('Archives', 'kubrick'); ?></h2>
-				<ul>
-				<?php wp_get_archives('type=monthly'); ?>
-				</ul>
-			</li>
-
-			<?php wp_list_categories('show_count=1&title_li=<h2>' . __('Categories', 'kubrick') . '</h2>'); ?>
-		</ul>
-
-	</div>
-
+<h2>Alaveteli resources elsewhere on the web</h2>
+<ul class="no_bullets">
+<?php wp_list_bookmarks('title_li=&categorize=0'); ?>
+</ul>

@@ -151,6 +151,10 @@ color:#6B3C6A;
 background:#FFF;
 }
 
+#right_column_flip ul li.current_page_item {
+font-weight: bold;
+}
+
 div.correspondence,div.comment_in_request {
 background:url(images/stripes-70.png);
 }
@@ -262,3 +266,33 @@ padding:0;
 
 div.correspondence p.preview_subject {
 font-family:'DeliciousRoman';
+}
+
+div.post small {
+ color: #ADADAD;
+ font-style: italic;
+ padding-bottom: 15px;
+ display: block;
+}
+
+div.post h2 {
+ margin-bottom: 5px;
+ 
+}
+
+div.post {
+border-bottom:1px solid #5F5F5F;
+}
+
+p.postmetadata {
+ font-size:0.9em;
+}
+
+div#secondary-nav {
+background-color:#F0F0F0;
+background:url(images/stripes.png);
+padding: 1px 5px 1px 6px;
+border-radius:6px;
+-moz-border-radius:6px;
+
+}
