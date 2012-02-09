@@ -5,9 +5,7 @@
     </div>
 
     <div id="footer">
-    <a href="http://test.alaveteli.org/en/help/contact">Contact Alaveteli</a>
-| <img src="/images/twitter-16.png" alt="twitter icon" class="twitter-icon"> <a href="http://www.twitter.com/whatdotheyknow">Follow us on twitter</a>
-| Powered by <a href="http://www.alaveteli.org/">Alaveteli</a>
+ <img src="http://test.alaveteli.org/images/twitter-16.png" alt="twitter icon" class="twitter-icon"> <a href="http://www.twitter.com/alaveteli_foi">Follow us on twitter</a>
 
 </div>
 <div class="after-footer">&nbsp;</div>

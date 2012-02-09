@@ -39,6 +39,7 @@
         
         
           <div id="logged_in_bar">
+ <img src="http://test.alaveteli.org/images/twitter-16.png" alt="twitter icon" class="twitter-icon"> <a href="http://www.twitter.com/alaveteli_foi">Follow us on twitter</a>
 
           </div>
            
