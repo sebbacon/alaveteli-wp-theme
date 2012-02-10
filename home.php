@@ -39,7 +39,7 @@ Hold corporations and governments to account.</span>
       <div id="examples_0">
         <h3>What does Alaveteli do?</h3>
         <ul>
-	  <li>Lower the barriers that prevent citizens asking questions of those in power</li>
+	  <li>Lowers the barriers that prevent citizens asking questions of those in power</li>
 	  <li>Out-of-the-box support for making Freedom of Information requests to public bodies</li>
 	  <li>Sends requests via normal email channels, and publishes responses online (with attachments) instantly</li>
           <li>Integrates well with social media</li>
