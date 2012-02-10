@@ -43,7 +43,7 @@ Hold corporations and governments to account.</span>
 	  <li>Out-of-the-box support for making Freedom of Information requests to public bodies</li>
 	  <li>Sends requests via normal email channels, and publishes responses online (with attachments) instantly</li>
           <li>Integrates well with social media</li>
-	  <li>Users can subscribe to email alerts matching any words or phrases they're interested in<</li>
+	  <li>Users can subscribe to email alerts matching any words or phrases they like</li>
           <li>Responses are categorised by users for easy searching and reporting</li>
 	  <li>Translated into 8 languages (and counting...)</li>
         </ul>
