@@ -308,3 +308,7 @@ border-radius:6px;
 border-bottom: 1px solid #DDD;
 padding: 5px 0;
 }
+
+.alignright {
+ float:right;
+}
