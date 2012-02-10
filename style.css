@@ -164,7 +164,7 @@ background:url(images/stripes-70-light.png);
 }
 
 #frontpage_splash {
-background:url(images/flying-computer.png) no-repeat 175px bottom;
+background:url(images/front-graphic.png) no-repeat 265px bottom;
 }
 
 #frontpage_splash h1 {
@@ -173,6 +173,8 @@ font-size:39px;
 color:#6B3C6A;
 font-weight:400;
 margin:0 0 20px;
+width: 270px;
+line-height: 1em;
 }
 
 #frontpage_splash h1 strong {
@@ -180,6 +182,7 @@ font-family:'DeliciousHeavyRegular', Arial, sans-serif;
 font-size:54px;
 color:#93278F;
 font-weight:400;
+line-height: 1em;
 }
 
 #frontpage_splash h1 span {
@@ -188,6 +191,7 @@ font-style:italic;
 font-weight:400;
 font-size:25px;
 color:#6B3C6A;
+line-height: 1.2em;
 }
 
 #frontpage_splash h2 {
@@ -210,6 +214,9 @@ font-size:19px;
 font-family:Georgia;
 }
 
+#frontpage_splash #frontpage_search_box {
+ margin-bottom: 15px;
+}
 
 #ui-datepicker-div.ui-widget {
 font-family:Arial, sans-serif;
@@ -295,4 +302,9 @@ padding: 1px 5px 1px 6px;
 border-radius:6px;
 -moz-border-radius:6px;
 
+}
+
+#examples_0 ul li {
+border-bottom: 1px solid #DDD;
+padding: 5px 0;
 }
