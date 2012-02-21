@@ -2,7 +2,6 @@
 /**
 Template Name: Home page
 */
-
 get_header(); ?>
 
 	<div id="general_frontpage" role="main">
@@ -70,5 +69,5 @@ Hold corporations and governments to account.</span>
 
             </div>
         </dov>
-
 <?php get_footer(); ?>
+

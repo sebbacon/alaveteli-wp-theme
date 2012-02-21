@@ -6,7 +6,7 @@
 
 get_header(); ?>
 
-	<div id="left_column_flip" class="narrowcolumn" role="main">
+	<div id="content" class="narrowcolumn" role="main">
 
 	<?php if (have_posts()) : ?>
 
