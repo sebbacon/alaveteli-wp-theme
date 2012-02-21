@@ -20,7 +20,7 @@ Hold corporations and governments to account.</span>
         <h2>
 	  Alaveteli has helped citizens ask more than<br>
           <strong>100,000</strong> Freedom of Information requests in
-									 <strong>5</strong> jurisdictions, such as:
+	  <a href="/about-2/where-is-alaveteli-been-installed/"><strong>5</strong> jurisdictions</a>, such as:
         </h2>
 
       </div>
