@@ -316,3 +316,11 @@ padding: 5px 0;
 .alignleft {
  float:left;
 }
+
+.post img {
+ padding-right: 10px;
+}
+
+hr {
+ clear:both;
+}
