@@ -312,3 +312,7 @@ padding: 5px 0;
 .alignright {
  float:right;
 }
+
+.alignleft {
+ float:left;
+}
