@@ -58,7 +58,7 @@ Hold corporations and governments to account.</span>
                Download <a href="/wp-uploads/2012/02/Turbo-Transparency-v1.0.pdf">Turbo Transparency</a>, a paper about how and why to use Alaveteli for Freedom of Information systems</li>
             <li>Find out more <a href="/about-2">about the Alaveteli project</a></li>
             <li>Read the <a href="https://github.com/sebbacon/alaveteli/wiki/Getting-started">Getting Started guide</a> on our wiki</li>
-            <li>If you are an organisation who wants to use Alaveteli in your jurisdiction, or a developer who is interested in collaborating on the software, please send a message introducing yourself to our <a href="https://groups.google.com/group/alaveteli-dev">mailing list</a></li>
+            <li>If you are an organisation who wants to use Alaveteli in your jurisdiction, or a developer who is interested in collaborating on the software, please send a message introducing yourself to our <a href="https://groups.google.com/group/alaveteli-dev">developers mailing list</a> or our <a href="https://groups.google.com/group/alaveteli-users">users mailing list</a></li>
             <li>Developers might want to start with the <a href="https://github.com/sebbacon/alaveteli/wiki/Developers-guide">technical overview</a>.</a>
         </ul>
     </div>
